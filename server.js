@@ -10,7 +10,7 @@ function sendJson(response, statusCode, data) {
   });
   response.end(JSON.stringify(data));
 }
-
+// TEST
 async function readJson(request) {
   let body = "";
 
